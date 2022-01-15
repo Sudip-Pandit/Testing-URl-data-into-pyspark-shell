@@ -28,3 +28,5 @@ This a small test regarding how to create a .py file in edge node and test into 
     flattendf = df.withColumn("results",
     explode(col("results"))).select("nationality","results.user.cell","results.user.dob","results.user.email","results.user.gender","results.user.location.*")
     flattendf.show()
+
+![image](https://user-images.githubusercontent.com/70854976/149638217-97986375-74e4-4271-8fe3-51a564737d7c.png)
