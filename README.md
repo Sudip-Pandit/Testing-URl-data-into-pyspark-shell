@@ -23,7 +23,7 @@ This a small test regarding how to create a .py file in edge node and test into 
      df.show()
      df.printSchema()
      
-# Flateen the column using explode funtion
+# Flatten the column using explode funtion
 
     flattendf = df.withColumn("results",
     explode(col("results"))).select("nationality","results.user.cell","results.user.dob","results.user.email","results.user.gender","results.user.location.*")
