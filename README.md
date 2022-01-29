@@ -2,8 +2,6 @@
 
 This a small test regarding how to create a .py file in edge node and test into pyspark shell before spark-submit.
 
-'# testing to read url data in pyspark shell`
-
   `Step-1 Go to the edge node and create a file t_demo_spark_submit.py file`
   
   `Step-2 Copy the following code and paste in your VS code or pyspark shell`
